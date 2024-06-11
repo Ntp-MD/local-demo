@@ -1,0 +1,19 @@
+.content-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2vw;
+}
+
+.grid-responsive {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(clamp(200px, 30%, 420px), 1fr));
+    justify-content: space-between;
+    gap: clamp(15px, 4vw, 30px);
+}
+
+
+.grid-responsive img {
+    max-width: clamp(300px, 500px, 500px);
+    margin: 0 auto;
+}

@@ -14,7 +14,6 @@ body {
 
 
 a {
-    color: var(--main-color2);
     text-decoration: none;
 }
 
@@ -37,6 +36,13 @@ section {
     display: grid;
     grid-template-columns: repeat(5 ,1fr);
     background: var(--main-color1);
+    height: 60px;
+}
+
+.main-menu a {
+    display: grid;
+    place-items: center;
+    color: #fff;
 }
 
 

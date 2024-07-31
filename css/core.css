@@ -1,81 +1,23 @@
 /*<--font-->*/
 body {
-    --main-color: #282828;
-    --main-color2: #444444;
+    --main-color1: #0a4b5f;
+    --main-color2: #e76f3d;
     font-family: "Inter", sans-serif;
-    color: var(--main-color2);
-    letter-spacing: .5px;
     font-size: clamp(14px, 2vw, 18px);
-    line-height: 2;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    line-height: 1.8;
 }
 
-h1 {
-    font-size: clamp(24px, 48px, 2.5vw);
-    font-weight: 600;
-    color: var(--main-color) !important;
-    margin: 0;
-}
-
-h2 {
-    font-size: clamp(18px, 4vw, 1.4vw);
-}
-
-
-h3 {
-    font-size: clamp(18px, 4vw, 1.2vw);
-
-}
-
-h4 {
-    font-size: clamp(18px, 4vw, 1.2vw);
-    font-weight: 700;
-
-}
-
-h5 {
-    font-size: clamp(18px, 4vw, 1vw);
-
-}
-
-h6 {
-    font-size: clamp(18px, 4vw, 1vw);
-
-}
 
 a {
     color: var(--main-color2);
     text-decoration: none;
 }
 
-header {
-    position: sticky;
-    top: 0;
-    background: #fff;
-
-}
-
-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    background: var(--color2);
-    color: #fff;
-    text-align: center;
-    background: #000;
-    padding: 10px;
-}
-
-body {
-    min-height: 800px;
-    margin: 0;
-}
 
 ::-webkit-scrollbar {
     opacity: 0;

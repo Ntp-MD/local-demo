@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", async () => {
     document.querySelectorAll('html *').forEach(async (element) => {
-        const filePath = `https://ntp-md.github.io/itp.support/component/${element.id}.html`;
+        const filePath = `https://ntp-md.github.io/local-demo/component/${element.id}.html`;
         try {
             const response = await fetch(filePath);
             if (!response.ok) throw new Error('Failed to fetch');

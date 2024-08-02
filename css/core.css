@@ -45,6 +45,10 @@ section {
     color: #fff;
 }
 
+.main-menu a:hover {
+    background: var(--main-color2);
+}
+
 
 
 

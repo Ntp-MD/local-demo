@@ -22,14 +22,11 @@ a {
     opacity: 0;
 }
 
-section {
-    margin: clamp(100px, 7vw, 5vw) auto;
-    width: clamp(350px, 70vw, 1200px);
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
-
-
-
-
 
 
 .main-menu {
@@ -48,6 +45,11 @@ section {
 .main-menu a:hover {
     background: var(--main-color2);
 }
+
+
+
+
+
 
 
 

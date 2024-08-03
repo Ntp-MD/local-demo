@@ -71,16 +71,5 @@ h2 {
     gap: 20px;
 }
 
-#banner-section {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    place-items: center;
-    gap: 20px;
-}
-
-#banner-section img {
-    border-radius: 10px;
-}
-
 
 

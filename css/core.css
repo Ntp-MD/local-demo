@@ -52,12 +52,17 @@ h1 {
     gap: 10px;
     color: var(--main-color1);
     margin-bottom: 15px;
-
 }
 
 h1 img {
     max-width: 30px;
 }
+
+
+h2 {
+    font-size: 16px;
+}
+
 
 
 #body {

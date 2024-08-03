@@ -4,6 +4,8 @@ body {
     --main-color2: #e76f3d;
     font-family: "Inter", sans-serif;
     font-size: clamp(14px, 2vw, 18px);
+    font-family: "Roboto", sans-serif;
+
 }
 
 * {
@@ -12,6 +14,9 @@ body {
     box-sizing: border-box;
 }
 
+section {
+    padding: 15px;
+}
 
 a {
     text-decoration: none;
@@ -22,133 +27,14 @@ a {
     opacity: 0;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 
-
-.main-menu {
-    display: grid;
-    grid-template-columns: repeat(5 ,1fr);
+.header {
     background: var(--main-color1);
     height: 60px;
 }
 
-.main-menu a {
-    display: grid;
-    place-items: center;
-    color: #fff;
-}
-
-.main-menu a:hover {
-    background: var(--main-color2);
-}
 
 
 
 
 
-
-
-
-
-/*nav*/
-.nav-header {
-    display: grid;
-    grid-template-columns: clamp(140px, 10vw, 20%) 80%;
-    align-items: center;
-    box-shadow: 0 0 3px 0 #ccc;
-    height: clamp(50px, 5vw, 6vw);
-    padding: 0 15vw;
-    justify-content: space-between;
-}
-
-.nav-menu {
-    display: flex;
-    justify-content: flex-end;
-    gap: 2vw;
-}
-
-#nav-toggle {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: fit-content;
-    aspect-ratio: 1;
-}
-
-#nav-toggle dd {
-    width: 25px;
-    height: 3px;
-    background: var(--main-color2);
-    transition: .5s;
-}
-
-
-@media screen and (min-width: 992px) {
-    #nav-toggle {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    section {
-        width: 100vw;
-        padding: 0 5vw;
-    }
-
-    .nav-header {
-        display: flex;
-        padding: 0 5vw;
-        justify-content: space-between;
-    }
-
-    .nav-menu {
-        position: absolute;
-        top: 50px;
-        left: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        height: 100vh;
-        width: 100%;
-        background: linear-gradient(to right, #fff 0%, #fff 75%, rgba(0, 0, 0, 0.8) 75%, rgba(0, 0, 0, 0.8) 100%);
-        padding-top: 10px;
-        padding-left: 5vw;
-        visibility: hidden;
-        left: -100%;
-        transition: .5s;
-    }
-
-    .nav-logo {
-        width: 140px;
-    }
-
-    #nav-toggle.open+.nav-menu {
-        visibility: visible;
-        left: 0;
-        border-top: 1px solid #ccc;
-    }
-
-
-    #nav-toggle.open {
-        position: relative;
-    }
-
-    #nav-toggle.open dd:nth-child(1) {
-        width: 25px;
-    }
-
-    #nav-toggle.open dd:nth-child(2) {
-        width: 18px;
-
-    }
-
-    #nav-toggle.open dd:nth-child(3) {
-        width: 10px;
-    }
-
-
-}

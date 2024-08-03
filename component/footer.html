@@ -1,1 +1,31 @@
-<p>copyright@Mod 2024</p>
+<div class="main-menu">
+    <a href=""><img src="/assets/home.png" alt="">Home</a>
+    <a href=""><img src="/assets/dive.png" alt="">Dive</a>
+    <a href=""><img src="/assets/course.png" alt="">Course</a>
+    <a href=""><img src="/assets/Tips.png" alt="">Tips</a>
+    <a href=""><img src="/assets/log.png" alt="">Log</a>
+</div>
+
+<style>
+    .main-menu {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        background: var(--main-color1);
+        height: 65px;
+    }
+
+    .main-menu a:hover {
+        background: var(--main-color2);
+    }
+
+    .main-menu a {
+        display: grid;
+        place-items: center;
+        padding: 7px;
+        gap: 5px;
+    }
+
+    .main-menu img {
+        max-width: 30px;
+    }
+</style>

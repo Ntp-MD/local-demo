@@ -1,3 +1,16 @@
+#banner-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    gap: 20px;
+}
+
+#banner-section img {
+    border-radius: 10px;
+}
+
+
+
 #choose-location {
     color: var(--main-color1);
 }
@@ -11,7 +24,7 @@
     border: 1px solid var(--main-color1);
     outline: none;
     color: var(--main-color1);
-  
+
 }
 
 .site-group {
@@ -22,7 +35,7 @@
     width: 100%;
 }
 
-.site-group img{
+.site-group img {
     min-width: 220px;
     aspect-ratio: 16/10;
     border-radius: 10px;
@@ -49,7 +62,7 @@
     overflow: hidden;
 }
 
-.top-result-item > div {
+.top-result-item>div {
     display: flex;
     flex-direction: column;
     gap: 10px;

@@ -1,5 +1,5 @@
 
-/*
+
 document.addEventListener("DOMContentLoaded", async () => {
     document.querySelectorAll('html *').forEach(async (element) => {
         const filePath = `https://ntp-md.github.io/local-demo/component/${element.id}.html`;
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
     });
 });
-*/
+
 
 document.addEventListener("DOMContentLoaded", async () => {
     document.querySelectorAll('html *').forEach(async (element) => {
